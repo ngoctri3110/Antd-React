@@ -1,12 +1,12 @@
 import "antd/dist/antd.css";
 import "./App.css";
-import ValidForm from "./component/ValidForm";
+import FileUpload from "./component/FileUpload";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ValidForm />
+        <FileUpload />
       </header>
     </div>
   );
